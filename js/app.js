@@ -35,7 +35,7 @@ stockProductos.forEach((producto) => {
     <img src=${producto.img} alt= "">
     <h3>${producto.nombre}</h3>
     <p>${producto.desc}</p>
-    <p>Talle: ${producto.talle}</p>
+    <p>opcion: ${producto.opcion}</p>
     <p class="precioProducto">Precio:$ ${producto.precio}</p>
     <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
     `
@@ -127,3 +127,4 @@ const actualizarCarrito = () => {
     //Por cada producto q recorro en mi carrito, al acumulador le suma la propiedad precio, con el acumulador
     //empezando en 0.
 }
+
